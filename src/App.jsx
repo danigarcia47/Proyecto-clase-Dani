@@ -7,6 +7,7 @@ import { Menu } from '.data/Menu';
 export function App() {
   return (
     <Router>
+      <BootstrapHeader />
       {Menu.map((item) => {
         return (
           <Route
